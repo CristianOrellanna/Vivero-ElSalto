@@ -1,0 +1,33 @@
+﻿<Window x:Class="Vivero_GUI.Vistas.ActualizarPlanta"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vivero_GUI.Vistas"
+        mc:Ignorable="d"
+        Title="Actualizar planta" Height="450" Width="800">
+    <Grid>
+        <Label Content="Id" HorizontalAlignment="Left" Margin="223,30,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nombre comun" HorizontalAlignment="Left" Margin="167,60,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nombre cientifico" HorizontalAlignment="Left" Margin="156,90,0,0" VerticalAlignment="Top"/>
+        <Label Content="Tipo de planta" HorizontalAlignment="Left" Margin="174,120,0,0" VerticalAlignment="Top"/>
+        <Label Content="Descripcion" HorizontalAlignment="Left" Margin="188,150,0,0" VerticalAlignment="Top"/>
+        <Label Content="Tiempo de riego" HorizontalAlignment="Left" Margin="162,180,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cantidad de agua" HorizontalAlignment="Left" Margin="162,210,0,0" VerticalAlignment="Top"/>
+        <Label Content="Epoca" HorizontalAlignment="Left" Margin="219,240,0,0" VerticalAlignment="Top"/>
+        <Label Content="Es venenosa" HorizontalAlignment="Left" Margin="185,270,0,0" VerticalAlignment="Top"/>
+        <Label Content="Es autoctona" HorizontalAlignment="Left" Margin="185,300,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtId"  HorizontalAlignment="Left" Margin="294,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" IsEnabled="False"/>
+        <TextBox x:Name="txtNombreComun" HorizontalAlignment="Left" Margin="294,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
+        <TextBox x:Name="txtNombreCientifico" HorizontalAlignment="Left" Margin="294,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
+        <TextBox x:Name="txtTipoPlanta" HorizontalAlignment="Left" Margin="294,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
+        <TextBox x:Name="txtDescripcion" HorizontalAlignment="Left" Margin="294,154,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="294"/>
+        <TextBox x:Name="txtTiempoRiego" HorizontalAlignment="Left" Margin="294,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
+        <TextBox x:Name="txtCantidadAgua" HorizontalAlignment="Left" Margin="294,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
+        <TextBox x:Name="txtEpoca" HorizontalAlignment="Left" Margin="294,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
+        <CheckBox x:Name="chkEsVenenosa"  Content="Marque la casilla si lo es" HorizontalAlignment="Left" Margin="294,276,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkEsAutoctona"  Content="Marque la casilla si lo es" HorizontalAlignment="Left" Margin="294,305,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnActualizarPlanta" Content="Actualizar planta" HorizontalAlignment="Left" Margin="400,350,0,0" VerticalAlignment="Top" BorderBrush="YellowGreen"/>
+
+    </Grid>
+</Window>
