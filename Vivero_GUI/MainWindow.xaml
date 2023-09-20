@@ -10,11 +10,12 @@
         <DockPanel LastChildFill="False">
             <Menu Width="Auto" IsMainMenu="True" x:Name="mnPrincipal" DockPanel.Dock="Top">
                 <MenuItem Header="Administracion de plantas">
-                <MenuItem Header="Agregar nueva planta" x:Name="optAgregarNuevaPlanta" Click="optAgregarNuevaPlanta_Click"></MenuItem>
-                <MenuItem Header="Listar plantas" x:Name="optListarPlantas" Click="optListarPlantas_Click"></MenuItem>
+                    <MenuItem Header="Agregar nueva planta" x:Name="optAgregarNuevaPlanta" Click="optAgregarNuevaPlanta_Click"/>
+                    <MenuItem Header="Listar plantas" x:Name="optListarPlantas" Click="optListarPlantas_Click"/>
                 </MenuItem>
+                <MenuItem Header="Reporte de plantas" x:Name="optReporte" Click="optReporte_Click"/>
             </Menu>
-            <DataGrid x:Name="dgListadoPlantas" Width="Auto" Height="Auto" IsEnabled="False" DockPanel.Dock="Top"></DataGrid>
+            <DataGrid x:Name="dgListadoPlantas" Width="Auto" Height="Auto" IsEnabled="False" DockPanel.Dock="Top"/>
         </DockPanel>
 
     </Grid>

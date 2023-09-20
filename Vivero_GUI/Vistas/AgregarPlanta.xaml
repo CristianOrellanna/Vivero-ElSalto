@@ -17,7 +17,7 @@
         <Label Content="Epoca" HorizontalAlignment="Left" Margin="219,240,0,0" VerticalAlignment="Top"/>
         <Label Content="Es venenosa" HorizontalAlignment="Left" Margin="185,270,0,0" VerticalAlignment="Top"/>
         <Label Content="Es autoctona" HorizontalAlignment="Left" Margin="185,300,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtId"  HorizontalAlignment="Left" Margin="294,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="txtId"  HorizontalAlignment="Left" Margin="294,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
         <TextBox x:Name="txtNombreComun" HorizontalAlignment="Left" Margin="294,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
         <TextBox x:Name="txtNombreCientifico" HorizontalAlignment="Left" Margin="294,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
         <TextBox x:Name="txtTipoPlanta" HorizontalAlignment="Left" Margin="294,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
@@ -25,8 +25,8 @@
         <TextBox x:Name="txtTiempoRiego" HorizontalAlignment="Left" Margin="294,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
         <TextBox x:Name="txtCantidadAgua" HorizontalAlignment="Left" Margin="294,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
         <TextBox x:Name="txtEpoca" HorizontalAlignment="Left" Margin="294,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
-        <CheckBox x:Name="chkEsVenenosa"  Content="Marque la casilla si lo es" HorizontalAlignment="Left" Margin="294,276,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="chkEsAutoctona"  Content="Marque la casilla si lo es" HorizontalAlignment="Left" Margin="294,305,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnAgregarPlanta" Content="Agregar planta" HorizontalAlignment="Left" Margin="400,350,0,0" VerticalAlignment="Top" BorderBrush="YellowGreen"/>
+        <CheckBox x:Name="chkEsVenenosa"  Content="" HorizontalAlignment="Left" Margin="294,276,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkEsAutoctona"  Content="" HorizontalAlignment="Left" Margin="294,305,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAgregarPlanta" Content="Agregar planta" HorizontalAlignment="Left" Margin="400,350,0,0" VerticalAlignment="Top" Click="btnAgregarPlanta_Click"/>
     </Grid>
 </Window>

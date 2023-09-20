@@ -25,9 +25,9 @@
         <TextBox x:Name="txtTiempoRiego" HorizontalAlignment="Left" Margin="294,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
         <TextBox x:Name="txtCantidadAgua" HorizontalAlignment="Left" Margin="294,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
         <TextBox x:Name="txtEpoca" HorizontalAlignment="Left" Margin="294,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
-        <CheckBox x:Name="chkEsVenenosa"  Content="Marque la casilla si lo es" HorizontalAlignment="Left" Margin="294,276,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="chkEsAutoctona"  Content="Marque la casilla si lo es" HorizontalAlignment="Left" Margin="294,305,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnActualizarPlanta" Content="Actualizar planta" HorizontalAlignment="Left" Margin="400,350,0,0" VerticalAlignment="Top" BorderBrush="YellowGreen"/>
+        <CheckBox x:Name="chkEsVenenosa"  Content="" HorizontalAlignment="Left" Margin="294,276,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkEsAutoctona"  Content="" HorizontalAlignment="Left" Margin="294,305,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnActualizarPlanta" Content="Actualizar planta" HorizontalAlignment="Left" Margin="400,350,0,0" VerticalAlignment="Top" BorderBrush="YellowGreen" Click="btnActualizarPlanta_Click"/>
 
     </Grid>
 </Window>

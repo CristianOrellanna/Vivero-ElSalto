@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vivero_GUI", "Vivero_GUI\Vivero_GUI.csproj", "{20AED3CA-2654-4A9A-9BDD-E8B1EA804E56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vivero_DALC", "Vivero_DALC\Vivero_DALC.csproj", "{29C74EA8-888D-4B51-975B-1599A050CBBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vivero_negocio", "Vivero_negocio\Vivero_negocio.csproj", "{AE53BB3B-4DCD-4C1A-A28B-A67E703152DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{20AED3CA-2654-4A9A-9BDD-E8B1EA804E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20AED3CA-2654-4A9A-9BDD-E8B1EA804E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20AED3CA-2654-4A9A-9BDD-E8B1EA804E56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C74EA8-888D-4B51-975B-1599A050CBBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C74EA8-888D-4B51-975B-1599A050CBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C74EA8-888D-4B51-975B-1599A050CBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C74EA8-888D-4B51-975B-1599A050CBBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE53BB3B-4DCD-4C1A-A28B-A67E703152DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE53BB3B-4DCD-4C1A-A28B-A67E703152DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE53BB3B-4DCD-4C1A-A28B-A67E703152DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE53BB3B-4DCD-4C1A-A28B-A67E703152DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

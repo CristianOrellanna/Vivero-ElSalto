@@ -1,0 +1,15 @@
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_negocio\bin\Debug\Vivero_negocio.dll.config
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_negocio\bin\Debug\Vivero_negocio.dll
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_negocio\bin\Debug\Vivero_negocio.pdb
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_negocio\bin\Debug\EntityFramework.dll
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_negocio\bin\Debug\Vivero_DALC.dll
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_negocio\bin\Debug\Vivero_DALC.pdb
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_negocio\bin\Debug\Vivero_DALC.dll.config
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_negocio\bin\Debug\EntityFramework.xml
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_negocio\obj\Debug\Vivero_negocio.csproj.AssemblyReference.cache
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_negocio\obj\Debug\Vivero_negocio.csproj.CoreCompileInputs.cache
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_negocio\obj\Debug\Vivero_negocio.csproj.CopyComplete
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_negocio\obj\Debug\Vivero_negocio.dll
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_negocio\obj\Debug\Vivero_negocio.pdb
