@@ -18,13 +18,35 @@
         <Label Content="Es venenosa" HorizontalAlignment="Left" Margin="185,270,0,0" VerticalAlignment="Top"/>
         <Label Content="Es autoctona" HorizontalAlignment="Left" Margin="185,300,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtId"  HorizontalAlignment="Left" Margin="294,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
-        <TextBox x:Name="txtNombreComun" HorizontalAlignment="Left" Margin="294,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
-        <TextBox x:Name="txtNombreCientifico" HorizontalAlignment="Left" Margin="294,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
-        <TextBox x:Name="txtTipoPlanta" HorizontalAlignment="Left" Margin="294,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
-        <TextBox x:Name="txtDescripcion" HorizontalAlignment="Left" Margin="294,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
-        <TextBox x:Name="txtTiempoRiego" HorizontalAlignment="Left" Margin="294,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
-        <TextBox x:Name="txtCantidadAgua" HorizontalAlignment="Left" Margin="294,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
-        <TextBox x:Name="txtEpoca" HorizontalAlignment="Left" Margin="294,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
+        <TextBox x:Name="txtNombreComun" HorizontalAlignment="Left" Margin="294,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"
+                 Text="{Binding NombreComun, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"
+                 MaxLength="100"
+                 ToolTip="{Binding ErrorCollection[NombreComun]}"
+                 />
+        <TextBox x:Name="txtNombreCientifico" HorizontalAlignment="Left" Margin="294,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"
+                 Text="{Binding NombreCientifico, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"
+                 MaxLength="150"
+                 ToolTip="{Binding ErrorCollection[NombreCientifico]}"
+                 />
+        <TextBox x:Name="txtTipoPlanta" HorizontalAlignment="Left" Margin="294,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"
+                 Text="{Binding TipoPlanta, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"
+                 ToolTip="{Binding ErrorCollection[TipoPlanta]}"
+                 />
+        <TextBox x:Name="txtDescripcion" HorizontalAlignment="Left" Margin="294,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"
+                 Text="{Binding Descripcion, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"
+                 ToolTip="{Binding ErrorCollection[Descripcion]}"
+                 />
+        <TextBox x:Name="txtTiempoRiego" HorizontalAlignment="Left" Margin="294,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"
+                 Text="{Binding TiempoRiego, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"
+                 ToolTip="{Binding ErrorCollection[TiempoRiego]}"
+                 />
+        <TextBox x:Name="txtCantidadAgua" HorizontalAlignment="Left" Margin="294,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"
+                Text="{Binding CantidadAgua, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"
+                 ToolTip="{Binding ErrorCollection[CantidadAgua]}"
+                 />
+        <TextBox x:Name="txtEpoca" HorizontalAlignment="Left" Margin="294,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"
+                 Text="{Binding Epoca, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"
+                 ToolTip="{Binding ErrorCollection[Epoca]}"/>
         <CheckBox x:Name="chkEsVenenosa"  Content="" HorizontalAlignment="Left" Margin="294,276,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="chkEsAutoctona"  Content="" HorizontalAlignment="Left" Margin="294,305,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnAgregarPlanta" Content="Agregar planta" HorizontalAlignment="Left" Margin="400,350,0,0" VerticalAlignment="Top" Click="btnAgregarPlanta_Click"/>

@@ -64,5 +64,13 @@ namespace Vivero_GUI
         {
             dgListadoPlantas.ItemsSource = plantaCollection.ReadAll();
         }
+
+        private void dgListadoPlantas_AutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
+        {
+            if(e.Column.Header.ToString() == "Error" || e.Column.Header.ToString() == "ErrorCollection")
+            {
+                e.Column.Visibility = Visibility.Collapsed;
+            }
+        }
     }
 }

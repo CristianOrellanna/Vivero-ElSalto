@@ -11,15 +11,20 @@ namespace Vivero_GUI.Vistas
     public partial class AgregarPlanta : Window
     {
         private static Regex s_regex = new Regex("[^0-9]+");
+
+        Vivero_negocio.Planta planta;
         public AgregarPlanta()
         {
             InitializeComponent();
+            planta = new Vivero_negocio.Planta();
+            this.DataContext = planta;
         }
         private void btnAgregarPlanta_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                Vivero_negocio.Planta planta = new Vivero_negocio.Planta();
+
+                /*Vivero_negocio.Planta planta = new Vivero_negocio.Planta();
                 planta.Id = (int)Convert.ToInt64(txtId.Text);
                 planta.NombreComun = txtNombreComun.Text;
                 planta.NombreCientifico = txtNombreCientifico.Text;
@@ -29,7 +34,9 @@ namespace Vivero_GUI.Vistas
                 planta.CantidadAgua = (int)Convert.ToInt64(txtCantidadAgua.Text);
                 planta.Epoca = txtEpoca.Text;
                 planta.EsVenenosa = (chkEsVenenosa.IsChecked.Value) ? true : false;
-                planta.EsAutoctona = (chkEsAutoctona.IsChecked.Value) ? true : false;
+                planta.EsAutoctona = (chkEsAutoctona.IsChecked.Value) ? true : false;*/
+                
+
 
                 bool response = planta.Create();
 

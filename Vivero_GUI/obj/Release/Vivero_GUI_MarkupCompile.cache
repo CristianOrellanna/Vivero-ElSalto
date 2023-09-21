@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_GUI\obj\Debug\
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_GUI\obj\Release\
 Vivero_GUI
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_GUI\App.xaml
 4-222657734
 
-9245223517
-172095337549
+8-1676554604
+17-1316671725
 MainWindow.xaml;Vistas\ActualizarPlanta.xaml;Vistas\AgregarPlanta.xaml;Vistas\ListarPlantas.xaml;
 
-False
+True
 

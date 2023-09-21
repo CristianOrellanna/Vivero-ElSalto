@@ -30,3 +30,4 @@ C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_GUI\obj\Debug\Vivero_GUI
 C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_GUI\obj\Debug\Vivero_GUI.csproj.CopyComplete
 C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_GUI\obj\Debug\Vivero_GUI.exe
 C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_GUI\obj\Debug\Vivero_GUI.pdb
+C:\Users\krist\OneDrive\Escritorio\ViveroElSalto\Vivero_GUI\obj\Debug\App.baml

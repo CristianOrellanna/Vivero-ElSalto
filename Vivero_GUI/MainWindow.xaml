@@ -15,7 +15,7 @@
                 </MenuItem>
                 <MenuItem Header="Reporte de plantas" x:Name="optReporte" Click="optReporte_Click"/>
             </Menu>
-            <DataGrid x:Name="dgListadoPlantas" Width="Auto" Height="Auto" IsEnabled="False" DockPanel.Dock="Top"/>
+            <DataGrid x:Name="dgListadoPlantas" Width="Auto" Height="Auto" IsEnabled="False" DockPanel.Dock="Top" AutoGeneratingColumn="dgListadoPlantas_AutoGeneratingColumn"/>
         </DockPanel>
 
     </Grid>
